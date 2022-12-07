@@ -30,6 +30,6 @@ jobs:
         run: |
           aws s3 sync \
             --region ap-northeast-2 \
-            build s3://buckets/fe-6-kangseong-sim \
+            build s3:// fe-6-kangseong-sim \
             --delete
         working-directory: ./my-agora-states-client
